@@ -8,7 +8,7 @@ const crearNuevaLinea = (imagen,nombre,precio,id) =>{
                 <img src="${imagen}" alt="">
                 <div class="update">
                     <i class="fa-solid fa-trash trash" id="${id}"></i>
-                    <a class="link"href="/screens/editar.html?id=${id}"><i class="fa-solid fa-pen pencil" ></i></a>
+                    <a class="link"href="../screens/editar.html?id=${id}"><i class="fa-solid fa-pen pencil" ></i></a>
                 </div>
             </div>
             <div class="datos">
