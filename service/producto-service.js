@@ -22,11 +22,11 @@ const eliminarProducto = (id) =>{
 }
 
 const datosProducto = (id) =>{
-    return fetch(`https://my-json-server.typicode.com/JonathanGT23/AluraGeek/productos${id}`).then((respuesta) => respuesta.json())
+    return fetch(`https://my-json-server.typicode.com/JonathanGT23/AluraGeek/productos/${id}`).then((respuesta) => respuesta.json())
 }
 
 const editarProducto = (imagen,nombre,precio,categoria,descripcion,id) =>{
-    return fetch(`https://my-json-server.typicode.com/JonathanGT23/AluraGeek/productos${id}`,{
+    return fetch(`https://my-json-server.typicode.com/JonathanGT23/AluraGeek/productos/${id}`,{
         method: "PUT",
         headers: {
             "Content-Type": "application/json"
