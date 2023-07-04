@@ -1,0 +1,17 @@
+.producto__info{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.producto__titulo{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.producto__link{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--background-azul);
+}
+

@@ -1,0 +1,29 @@
+.rodapie-form{
+    padding: 3rem 1rem;
+    display: flex;
+    justify-content: space-between;
+   background-color: var(--background-tercero);
+  
+    
+}
+ 
+
+
+
+
+
+
+ @media screen and (min-width: 1024px) {
+ 
+    .rodapie-form{
+         padding: 5rem 5rem;
+     }
+}
+
+@media screen and (max-width: 800px) {
+    .rodapie-form{
+        
+        flex-direction: column;
+        
+    }
+}

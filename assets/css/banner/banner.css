@@ -1,0 +1,13 @@
+.banner{
+
+    
+  background-image:  linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.7)),url(../../img/banner-image.png);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    display: flex;
+   
+}

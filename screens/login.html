@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek-Login</title>
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/body.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="/assets/css/cabecera/cabecera.css">
+    <link rel="stylesheet" href="/assets/css/cabecera/cabecera-logo.css">
+    <link rel="stylesheet" href="/assets/css/cabecera/cabecera-buscador.css">
+    <link rel="stylesheet" href="/assets/css/cabecera/cabecera-boton-login.css">
+
+
+
+    <link rel="stylesheet" href="/assets/css/login-html/login.css">
+    <link rel="stylesheet" href="/assets/css/login-html/login-form.css">
+
+
+    <link rel="stylesheet" href="/assets/css/rodapie-form/rodapie-form.css">
+    <link rel="stylesheet" href="/assets/css/rodapie-form/rodapie-container.css">
+    <link rel="stylesheet" href="/assets/css/rodapie-form/rodapie-logo.css">
+    <link rel="stylesheet" href="/assets/css/rodapie-form/rodapie-info.css">
+    <link rel="stylesheet" href="/assets/css/rodapie-form/rodapie-form-contacto.css">
+
+    <link rel="stylesheet" href="/assets/css/footer.css">
+</head>
+<body>
+    <header class="cabecera">
+        <div class="cabecera__logo"> 
+            <a href="../index.html"><img src="/assets/img/Logo.svg" alt="Logo de AluraGeek" class="logo"></a>
+        </div>
+        <div class="cabecera__buscador">
+                <input type="search" class="cabecera__buscador-input" placeholder="¿Qué deseas buscar?">
+                <button class="cabecera__buscador-boton"><i class="fa fa-search cabecera__buscador-boton"></i></button>
+        </div>
+        
+        
+    </header>
+
+<section class="login">
+    <form class="login__form" id="form">
+             
+        <div class="form">
+
+            <h3>Iniciar Sesión</h3>
+            <div class="grupo">
+                <input required type="email" name="" id="name" class="input" ><span class="barra"></span>
+                <label for="">Escriba su correo electrónico</label>
+            </div>
+            <div class="grupo">
+                <input type="password" name="" id="password" class="input" required><span class="barra"></span>
+                <label for="">Escriba su contraseña</label>
+            </div>
+            <a href="/screens/todoProductos.html"><button type="button" class="login__boton boton">Entrar</button></a>
+        </div>
+
+    </form>
+</section>
+
+
+
+
+
+    <section class="rodapie-form">
+        <div class="rodapie-container">
+         <div class="rodapie__logo">
+             <a href="../index.html"><img src="/assets/img/Logo.svg" alt="Logo de AluraGeek" class="logo__rodapie"></a>
+         </div>
+ 
+         <div class="rodapie__info">
+             <a href="#">Quienes somos</a>
+             <a href="#">Política de privacidad</a>
+             <a href="#">Programa de fidelidad</a>
+             <a href="#">Nuestras Tiendas</a>
+             <a href="#">Quiero ser franquiciado</a>
+             <a href="#">Anúncie aquí</a>
+         </div>
+     </div> 
+         <form class="rodapie__form-contacto" id="form">
+             
+             <div class="form">
+ 
+                 <h3>Hable con nosotros</h3>
+                 <div class="grupo">
+                     <input required type="text" name="" id="name" class="input" ><span class="barra"></span>
+                     <label for="">Nombre</label>
+                 </div>
+                 <div class="grupo">
+                     <textarea required   name="" id="mensaje" cols="0" rows="0"  class="input"></textarea><span class="barra"></span>
+                     <label for="">Mensaje</label>
+                 </div>
+                 <button type="submit" class="rodapie__boton boton">Enviar mensaje</button>
+             </div>
+ 
+         </form>
+      
+         
+     </section>
+     
+     <footer class="footer">
+         
+         <h1 class="footer__titulo">Desarrollado por <b>Jonathan González T</b></h1>
+         <p class="footer__ahno">&#169 2023</p>
+ 
+     </footer>
+</body>
+</html>

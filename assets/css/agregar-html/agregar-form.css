@@ -1,0 +1,15 @@
+.agregar__form h3{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.agregar__boton{ 
+    width: 100%;
+    height: 50px;
+    font-size: 1rem;
+    background-color: var(--background-azul);
+    color: #fff;
+}
+.agregar__boton:hover{
+    opacity: 0.5;
+}

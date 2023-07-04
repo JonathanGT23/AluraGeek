@@ -1,0 +1,10 @@
+.producto-uno{
+    padding: 3rem 1rem;
+    background-color: var(--background-secundario);
+ }
+ @media screen and (min-width: 1024px) {
+ 
+    .producto-uno{
+         padding: 5rem 5rem;
+     }
+}

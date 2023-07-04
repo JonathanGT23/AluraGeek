@@ -1,0 +1,148 @@
+{
+  "productos": [
+    {
+      "imagen": "https://www.credimall.cr/web/image/product.image/43778/image_1024/Mu%C3%B1eco%20Funko%20Pop%20The%20Child%20with%20Frog%20Star%20Wars?unique=dd11eb4",
+      "nombre": "Figura 1",
+      "precio": "20",
+      "categoria": "starWars",
+      "descripcion": "Figura star wars",
+      "id": "320af6aa-2b7b-48b3-855a-657d2467b616"
+    },
+    {
+      "imagen": "https://revocostarica.com/6422-large_default/pop-star-wars-darth-vader-597.jpg",
+      "nombre": "Figura 2",
+      "precio": "20",
+      "categoria": "starWars",
+      "descripcion": "\nFigura star wars",
+      "id": "3453dd52-0415-47a6-825c-fa695fe24649"
+    },
+    {
+      "imagen": "https://walmartcr.vtexassets.com/arquivos/ids/369932/Funko-Pop-Star-Wars-Concept-Series-Han-Solo-1-82072.jpg?v=638065864299030000",
+      "nombre": "Figura 3",
+      "precio": "20",
+      "categoria": "starWars",
+      "descripcion": "\nFigura star wars",
+      "id": "ad219bc6-1c61-4955-835d-6112dc6f5b26"
+    },
+    {
+      "imagen": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6531/6531321_sd.jpg",
+      "nombre": "Figura 4",
+      "precio": "20",
+      "categoria": "starWars",
+      "descripcion": "\nFigura star wars",
+      "id": "2d267f4e-5c0b-40ab-b333-feb03cb701e1"
+    },
+    {
+      "imagen": "https://m.media-amazon.com/images/I/51tx9XlODOL.jpg",
+      "nombre": "Figura 5",
+      "precio": "20",
+      "categoria": "starWars",
+      "descripcion": "Figura star wars",
+      "id": "992adee9-192b-430f-afa2-f62d7fab80e3"
+    },
+    {
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0p-qOmQ4P_cvJN0NT5oCaBQEb4sLQbIIBsA",
+      "nombre": "Figura 6",
+      "precio": "20",
+      "categoria": "starWars",
+      "descripcion": "Figura star wars",
+      "id": "9efe737f-ef65-4cef-ada3-ff0c9e3df8f0"
+    },
+    {
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/PSX-Console-wController.png/1200px-PSX-Console-wController.png",
+      "nombre": "Consola 1",
+      "precio": "80",
+      "categoria": "consola",
+      "descripcion": "consola de video juegos",
+      "id": "207572c6-ff5d-41a2-9b83-0164f1f1b547"
+    },
+    {
+      "imagen": "https://erikstore.com/blog/wp-content/uploads/2022/12/PS2.jpg",
+      "nombre": "Consola 2",
+      "precio": "100",
+      "categoria": "consola",
+      "descripcion": "consola de video juegos",
+      "id": "079f9aa7-fca2-4854-9a6e-3dba5568a30f"
+    },
+    {
+      "imagen": "https://gmedia.playstation.com/is/image/SIEPDC/ps4-product-thumbnail-01-en-14sep21",
+      "nombre": "Consola 3",
+      "precio": "200",
+      "categoria": "consola",
+      "descripcion": "consola de video juegos",
+      "id": "542c2ce9-7d7e-42d4-a715-71ac7dc45d13"
+    },
+    {
+      "imagen": "https://cdn.shopify.com/s/files/1/1161/3498/products/J_73_large.jpg?v=1678200398",
+      "nombre": "Consola 4",
+      "precio": "800",
+      "categoria": "consola",
+      "descripcion": "consola de video juegos",
+      "id": "3012b3ce-1c3a-471f-b3c0-8d3ab36557ed"
+    },
+    {
+      "imagen": "https://es.digitaltrends.com/wp-content/uploads/2022/04/nintendo-switch.jpg?fit=500%2C346&p=1",
+      "nombre": "Consola 5",
+      "precio": "400",
+      "categoria": "consola",
+      "descripcion": "consola de video juegos",
+      "id": "6e2b2bff-2d59-4bf2-9498-473ec2d1f05f"
+    },
+    {
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Xbox-Console-Set.png",
+      "nombre": "Consola 6",
+      "precio": "100",
+      "categoria": "consola",
+      "descripcion": "consola de video juegos",
+      "id": "9de4b96b-3e01-4b7a-8013-06ca23e89825"
+    },
+    {
+      "imagen": "https://m.media-amazon.com/images/I/51tx9XlODOL.jpg",
+      "nombre": "Vaso",
+      "precio": "5",
+      "categoria": "otros",
+      "descripcion": "Vaso ",
+      "id": "9f8570e8-8ed8-42b6-90a5-fb2bb7eee941"
+    },
+    {
+      "imagen": "https://m.media-amazon.com/images/I/51tx9XlODOL.jpg",
+      "nombre": "Almohada PS4",
+      "precio": "20",
+      "categoria": "otros",
+      "descripcion": "Almohada",
+      "id": "b047a055-fa88-4367-ac9a-42f511ea223b"
+    },
+    {
+      "imagen": "https://consolaytablero.files.wordpress.com/2013/07/plants-vs-zombies.jpg",
+      "nombre": "Peluche plantas vs zombies",
+      "precio": "10",
+      "categoria": "otros",
+      "descripcion": "peluches",
+      "id": "747c05a5-7c6d-4734-818c-8f6fbcbddc78"
+    },
+    {
+      "imagen": "https://www.lastlevel.es/distribucion/images/prod/big/act658/peluche-simba-nintendo-mario-toad-20.jpg",
+      "nombre": "Hongo Mario bros",
+      "precio": "10",
+      "categoria": "otros",
+      "descripcion": "Peluche",
+      "id": "9b767665-cea9-4eb5-8b03-105551e6164a"
+    },
+    {
+      "imagen": "https://m.media-amazon.com/images/I/713Vs4XzpEL.jpg",
+      "nombre": "llavero ps4",
+      "precio": "3",
+      "categoria": "otros",
+      "descripcion": "llavero play station",
+      "id": "30398a39-f432-4955-a88f-ae2f958f3840"
+    },
+    {
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_848872-MLA69980737242_062023-O.webp",
+      "nombre": "llavero mario",
+      "precio": "3",
+      "categoria": "otros",
+      "descripcion": "llavero",
+      "id": "d5e87367-2096-4ab8-b457-b51d6286f8f0"
+    }
+  ]
+}

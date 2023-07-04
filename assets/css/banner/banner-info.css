@@ -1,0 +1,44 @@
+.banner__info{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+ }
+
+ .banner__titulo{
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 700;
+    
+ }
+
+ .banner__texto{
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 2rem;
+ }
+
+
+.banner__boton{
+    margin: 2rem 0;
+    width: 150px;
+    height: 50px;
+    font-size: 1rem;
+    background-color: var(--background-azul);
+    color: #fff;
+}
+.banner__boton:hover{
+    opacity: 0.5;
+}
+
+
+
+
+ @media screen and (min-width: 1024px) {
+ 
+    .banner__info{
+         padding: 1rem 5rem;
+     }
+}

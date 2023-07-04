@@ -1,0 +1,23 @@
+.todos__info{
+    display: flex;
+    justify-content: space-between;
+   
+    flex-wrap: wrap;
+}
+
+.todos__titulo{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.todos__info button{ 
+    width: 150px;
+    height: 50px;
+    font-size: 1rem;
+    background-color: var(--background-azul);
+    color: #fff;
+}
+.todos__info button:hover{
+    opacity: 0.5;
+}

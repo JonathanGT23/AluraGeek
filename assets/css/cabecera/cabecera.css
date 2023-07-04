@@ -1,0 +1,19 @@
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+
+.cabecera{
+    padding: 1rem;
+ }
+ @media screen and (min-width: 1024px) {
+ 
+    .cabecera{
+         padding: 1rem 5rem;
+     }
+}
+

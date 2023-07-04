@@ -1,0 +1,17 @@
+.rodapie__info{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.rodapie__info a{
+    margin-left: 6rem;
+    padding-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 1170px) {
+    .rodapie__info a{
+        margin-left: .2rem;
+    }
+}
+
