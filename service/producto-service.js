@@ -1,11 +1,11 @@
 const listaProductos = () =>{
-    return fetch ("https://my-json-server.typicode.com/JonathanGT23/AluraGeek/productos").then((respuesta) => respuesta.json())
+    return fetch ("https://github.com/JonathanGT23/AluraGeek/main/db.json").then((respuesta) => respuesta.json())
 };
 
 
 
 const agregarProducto = (imagen,nombre,precio,categoria,descripcion)=>{
-    return fetch("https://my-json-server.typicode.com/JonathanGT23/AluraGeek/productos",{
+    return fetch("https://github.com/JonathanGT23/AluraGeek/main/db.json",{
         method: "POST",
         headers: {
             "Content-Type": "application/json"
@@ -16,17 +16,17 @@ const agregarProducto = (imagen,nombre,precio,categoria,descripcion)=>{
 }
 
 const eliminarProducto = (id) =>{
-    return fetch(`https://my-json-server.typicode.com/JonathanGT23/AluraGeek/productos/${id}` ,{
+    return fetch(`https://github.com/JonathanGT23/AluraGeek/main/db.json/${id}` ,{
         method: "DELETE"
     })
 }
 
 const datosProducto = (id) =>{
-    return fetch(`https://my-json-server.typicode.com/JonathanGT23/AluraGeek/productos/${id}`).then((respuesta) => respuesta.json())
+    return fetch(`https://github.com/JonathanGT23/AluraGeek/main/db.json/${id}`).then((respuesta) => respuesta.json())
 }
 
 const editarProducto = (imagen,nombre,precio,categoria,descripcion,id) =>{
-    return fetch(`https://my-json-server.typicode.com/JonathanGT23/AluraGeek/productos/${id}`,{
+    return fetch(`https://github.com/JonathanGT23/AluraGeek/main/db.json/${id}`,{
         method: "PUT",
         headers: {
             "Content-Type": "application/json"
