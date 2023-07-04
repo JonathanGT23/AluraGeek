@@ -12,7 +12,7 @@ formulario.addEventListener("submit", (evento) =>{
     const descripcion = document.querySelector("[data-detalle]").value
   
     productoService.agregarProducto(imagen,nombre,precio,categoria,descripcion).then (() =>{
-        window.location.href= "/screens/todoProductos.html"
+        window.location.href= "todoProductos.html"
     }).catch(err => console.log(err))
 
 })

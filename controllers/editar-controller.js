@@ -48,7 +48,7 @@ formulario.addEventListener("submit", (evento) =>{
     const descripcion = document.querySelector("[data-detalle]").value;
 
     productoService.editarProducto(imagen,nombre,precio,categoria,descripcion,id).then(() => {
-        window.location.href="/screens/todoProductos.html"
+        window.location.href="todoProductos.html"
     })
 
 })
