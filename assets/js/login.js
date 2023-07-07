@@ -21,7 +21,7 @@
                 confirmButtonText: 'Aceptar'
               }).then((result) => {
                 if (result.value) {
-                  window.location.href="index.html"
+                 console.log("hola")
                 }
               }); 
            
