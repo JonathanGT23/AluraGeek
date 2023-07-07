@@ -1,12 +1,244 @@
 {
   "productos": [
-    {
-      "imagen": "f",
-      "nombre": "Figura 1",
-      "precio": "20",
-      "categoria": "starWars",
-      "descripcion": "Figura star wars",
-      "id": "320af6aa-2b7b-48b3-855a-657d2467b616"
-    }
-  ]
+{
+"imagen": "https://images.unsplash.com/photo-1620138694717-07141b500f57?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80",
+"nombre": "Taza De Tropper",
+"precio": "20",
+"categoria": "starWars",
+"descripcion": "\nTaza De Tropper De Star Wars Storm",
+"id": "32d64765-11ec-427e-a04f-164e2cf4ad9e"
+},
+{
+"imagen": "https://lh3.googleusercontent.com/_v-LqQodbaFWMcpmTa9Pm4t0tDStXq0CLzPHIyQ1SzabNykPrMnyRhzix96gSmRq21hFfuIvJCGv1ttza6fFUrO2tmJdmOCH0MeoPzM",
+"nombre": "LEGO Star Wars",
+"precio": "10",
+"categoria": "starWars",
+"descripcion": "LEGO 75304 Star Wars Casco de Darth Vade",
+"id": "f9b52e72-c997-48e4-be4e-46742c0958ed"
+},
+{
+"imagen": "https://images.unsplash.com/photo-1599002762948-19068b069803?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=822&q=80",
+"nombre": "Yoda Muñeco",
+"precio": "10",
+"categoria": "starWars",
+"descripcion": "Muñuco de star wars ",
+"id": "9ce01147-6360-47ea-83ec-66fedc2c8108"
+},
+{
+"imagen": "https://images.unsplash.com/photo-1599719500956-d158a26ab3ee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80",
+"nombre": "Poster Star Wars",
+"precio": "5",
+"categoria": "starWars",
+"descripcion": "Poster Star Wars Grande",
+"id": "f3634a92-002f-4ed8-aeea-fdf10b2612fc"
+},
+{
+"imagen": "https://revistavenamerica.com/wp-content/uploads/2023/02/baby-yoda.jpg",
+"nombre": "Baby Yoda",
+"precio": "15",
+"categoria": "starWars",
+"descripcion": "Peluche Mediano de Baby Yoda",
+"id": "5bd3c72c-c72a-415b-9772-cfeedc20a3d0"
+},
+{
+"imagen": " https://i0.wp.com/sidisney.com/wp-content/uploads/2020/07/michael-marais-1VV1MRafd7A-unsplash.jpg?w=640&ssl=1",
+"nombre": "Poster de Star Wars",
+"precio": "3",
+"categoria": "starWars",
+"descripcion": "Poster de star wars pequeño",
+"id": "db2d209c-35eb-471a-8f2e-edff1fc9544d"
+},
+{
+"imagen": "https://f.rpp-noticias.io/2021/09/01/1138910alex-motoc-0powk6iairq-unsplashjpg.jpg",
+"nombre": "Mando de Xbox One",
+"precio": "80",
+"categoria": "consola",
+"descripcion": "Mando de Xbox",
+"id": "d42135ac-2e4b-410d-90b7-e6025c5115ff"
+},
+{
+"imagen": "https://www.notebookcheck.org/fileadmin/Notebooks/News/_nc3/Untitled466619.png",
+"nombre": "Play Station 5",
+"precio": "1000",
+"categoria": "consola",
+"descripcion": "Play station 5, con 5 juegos",
+"id": "fa5daeb7-f8a6-4268-8912-4eb39ff2022d"
+},
+{
+"imagen": "https://www.softzone.es/app/uploads-softzone.es/2023/06/consola-nintendo.jpg",
+"nombre": "Nintendo ",
+"precio": "50",
+"categoria": "consola",
+"descripcion": "Nintendo ",
+"id": "2b443415-06c5-476e-97df-4ab40456efe4"
+},
+{
+"imagen": "https://i.blogs.es/9ce2c5/captura-de-pantalla-2022-06-07-a-las-19.52.49/1366_2000.webp",
+"nombre": "Mando Switch",
+"precio": "100",
+"categoria": "consola",
+"descripcion": "Mandos de la Nintendo Switch",
+"id": "cca5b143-500a-4cd8-bdbb-58e062760e06"
+},
+{
+"imagen": "https://www.hoycripto.com/__export/1671490461975/sites/elimparcial/img/2022/12/19/billy-freeman-dpodcl4bgju-unsplash.jpg_397690646.jpg",
+"nombre": "Xbox Series X",
+"precio": "1200",
+"categoria": "consola",
+"descripcion": "Xbox Series X, con un juego incluido",
+"id": "7898070e-67ac-416a-a317-965a7bbb1366"
+},
+{
+"imagen": "https://images.unsplash.com/photo-1577583113753-ca7e95d1bdc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+"nombre": "Nintendo GameBoy",
+"precio": "60",
+"categoria": "consola",
+"descripcion": "Nintendo GameBoy transparente y verde sobre superficie blanca",
+"id": "89d97b58-c10c-4e0f-8b12-a34b6940168e"
+},
+{
+"imagen": "https://lh3.googleusercontent.com/Qfmn9VTYqwldFpZGCL536TCov0_PXtUv-M0hMzXtHVxe6X9Q9Yyh6hPilcS0VDCXYNlMuXgN6UAXfxbfR1NwMdoFgYEX1slWmGQhaAE",
+"nombre": "Camisa Atari",
+"precio": "20",
+"categoria": "otros",
+"descripcion": "Camisa Atari, talla L",
+"id": "56520a92-9fd9-47c4-808f-c2918adc9fa3"
+},
+{
+"imagen": "https://www.activopr.com/resizer/v0pvMtKM7w5l_sxmeL9AdmBkwAk=/800x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/Q3FGWPO3JJFIPGH6UI3U7A23RI.jpg",
+"nombre": "Camisa SNES",
+"precio": "15",
+"categoria": "otros",
+"descripcion": "Camisa SNES, para niño",
+"id": "e52b48d0-283f-4439-acad-7aeebe0184f3"
+},
+{
+"imagen": "https://gotoclient.com/wp-content/uploads/2019/11/sonic-toy-1280x857.jpg",
+"nombre": "Sonic Muñeco",
+"precio": "10",
+"categoria": "otros",
+"descripcion": "Muñeco de Sonic pequeño",
+"id": "494cee2f-f828-4270-8728-ad0865ac6981"
+},
+{
+"imagen": "https://toughmama.com/wp-content/uploads/2022/04/partyideasclockradio-1024x771.jpg",
+"nombre": "Despertador ",
+"precio": "30",
+"categoria": "otros",
+"descripcion": "Despertador color rosado",
+"id": "ae7e7e6f-ffe7-4732-8991-22ab290d24d5"
+},
+{
+"imagen": "https://i0.wp.com/escuelaarquitectura.es/wp-content/uploads/2019/04/estudiar-arquitectura-tendencias.jpg?resize=1000%2C856&ssl=1",
+"nombre": "Gafas VR",
+"precio": "300",
+"categoria": "otros",
+"descripcion": "Gafas de Realidad Virtual",
+"id": "92bb2037-43f5-4502-903c-38467ebc37c0"
+},
+{
+"imagen": "https://images.unsplash.com/photo-1609372332255-611485350f25?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+"nombre": "Peluche de Pikachu",
+"precio": "500",
+"categoria": "otros",
+"descripcion": "Peluche de Pikachu, tamaño grande",
+"id": "d1fbe47d-18ff-49f5-a5e8-4b497e11bc9f"
+},
+{
+"imagen": "https://m.media-amazon.com/images/I/41dDCn4HoRL._SX300_SY300_QL70_FMwebp_.jpg",
+"nombre": "Volante para PC",
+"precio": "100",
+"categoria": "otros",
+"descripcion": "Volante para PC, PXN V9 Universal Usb Car Sim Volante de carrera de 270/900 grados con 3 pedales y paquete de palanca de cambios para Xbox One, Xbox S",
+"id": "b27bcc87-2868-40cd-a2b6-5c1fc30f6b86"
+},
+{
+"imagen": "https://m.media-amazon.com/images/I/61LRLlwDSgL._AC_SX522_.jpg",
+"nombre": "Poster de Ellie",
+"precio": "5",
+"categoria": "otros",
+"descripcion": "AAAG Póster de The Last of US 2 Game Póster de Ellie, lienzo de los años 90, arte de pared, póster estético de 12 x 18 pulgadas (11.8 x 17.7 in)",
+"id": "5edd9d3d-2069-4b35-8099-56bdceb16649"
+},
+{
+"imagen": "https://m.media-amazon.com/images/I/61yylrfOeXL._AC_SY741_.jpg",
+"nombre": "Cartel Gato Stray",
+"precio": "8",
+"categoria": "otros",
+"descripcion": " Cartel de metal de estaño para videojuegos, letrero vintage para decoración de pared, 8 x 12 pulgadas",
+"id": "11aa07c8-7e05-4f25-91e7-5b5789ab12dc"
+},
+{
+"imagen": "https://m.media-amazon.com/images/I/611Pla0VTeL._AC_SY741_.jpg",
+"nombre": "Funko Stormtrooper",
+"precio": "15",
+"categoria": "starWars",
+"descripcion": "Funko Star Wars: Star Wars Nuevos Clásicos - Stormtrooper",
+"id": "f181c757-02c8-4f17-8be2-3e59d58ba75e"
+},
+{
+"imagen": "https://m.media-amazon.com/images/I/61LUL4gIsIL._AC_SY741_.jpg",
+"nombre": "Funko Pop Chewbacca",
+"precio": "15",
+"categoria": "starWars",
+"descripcion": "Funko Pop! Star Wars: Star Wars New Classics - Chewbacca",
+"id": "d155287f-6312-4953-b4bb-221b7f6adb4e"
+},
+{
+"imagen": "https://m.media-amazon.com/images/I/61YEEjixC3L._AC_SX569_.jpg",
+"nombre": "Funko Darth Vader",
+"precio": "15",
+"categoria": "starWars",
+"descripcion": "Funko Star Wars: Star Wars Nuevos Clásicos - Darth Vader",
+"id": "ae1d57d5-b6fa-415f-b992-0319440dba34"
+},
+{
+"imagen": "https://phantom.pe/media/catalog/product/cache/2d2e350e73065c0f42c90f0a12869353/d/u/dualshock_4_camuflado_verde_1_1.jpg",
+"nombre": "Mando Dualshock 4",
+"precio": "100",
+"categoria": "consola",
+"descripcion": "Mando Dualshock 4 Para Playstation 4 - Camuflado Verde",
+"id": "0ae5bd65-b2ec-4190-a5c2-9123a52b26e0"
+},
+{
+"imagen": "https://phantom.pe/media/catalog/product/cache/2d2e350e73065c0f42c90f0a12869353/p/s/ps5_dualsene_celeste.jpg",
+"nombre": "Mando ps5",
+"precio": "150",
+"categoria": "consola",
+"descripcion": "Mando DualSense PS5 - Starlight Blue",
+"id": "45dcb3d7-9469-4384-80bb-78ca489faa08"
+},
+{
+"imagen": "https://phantom.pe/media/catalog/product/cache/2d2e350e73065c0f42c90f0a12869353/s/t/steam_deck_1_1.jpg",
+"nombre": "Steam Deck",
+"precio": "300",
+"categoria": "consola",
+"descripcion": "Steam Deck Consola Portátil - 64 GB",
+"id": "2b8428d8-bebd-4e7a-8076-99f63649d79e"
+},
+{
+"imagen": "https://phantom.pe/media/catalog/product/cache/2d2e350e73065c0f42c90f0a12869353/g/a/game_and_watch_zelda.jpg",
+"nombre": "Game & Watch",
+"precio": "120",
+"categoria": "consola",
+"descripcion": "Con un diseño retro, decoraciones legendarias y el poder de salvar a Hyrule, la consola Game & Watch: The Legend of Zelda ",
+"id": "b108dd67-b55c-44e0-b6cd-38a2fa60a585"
+},
+{
+"imagen": "https://phantom.pe/media/catalog/product/cache/2d2e350e73065c0f42c90f0a12869353/6/8/68650-3.jpg",
+"nombre": "Funko Pop Grogu ",
+"precio": "20",
+"categoria": "starWars",
+"descripcion": "Funko Pop Star Wars: The Book of Boba Fett - Grogu w/ armor",
+"id": "c13b08f3-6780-46a2-8d92-2390815650b7"
+},
+{
+"imagen": "https://phantom.pe/media/catalog/product/cache/2d2e350e73065c0f42c90f0a12869353/7/6/76206_1.jpg",
+"nombre": "Lego Marvel",
+"precio": "30",
+"categoria": "otros",
+"descripcion": "Lego Marvel Iron Man Figura",
+"id": "3984760e-a424-4557-a5b8-dc21a60129fb"
+}
+]
 }
