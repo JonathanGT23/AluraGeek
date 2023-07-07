@@ -6,7 +6,7 @@ buscador.addEventListener("input", evento => {
   console.log(texto)
   buscador.addEventListener("keypress", eventoDos => {
     if (eventoDos.key === 'Enter') {
-      console.log("hola")
+      alert("hola")
       buscador.value="";
     }
   });
