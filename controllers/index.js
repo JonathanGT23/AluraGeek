@@ -10,7 +10,7 @@ const crearNuevaLinea = (imagen,nombre,precio,id) =>{
             
             <p>${nombre}</p>
             <span>$${precio}</span>
-            <a href="../screens/detalleProducto.html?id=${id}">Ver producto</a>
+            <a href="./screens/detalleProducto.html?id=${id}">Ver producto</a>
             
     </li>
     ` 
