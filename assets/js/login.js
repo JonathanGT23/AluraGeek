@@ -21,7 +21,7 @@
                 confirmButtonText: 'Aceptar'
               }).then((result) => {
                 if (result.value) {
-                 console.log("hola")
+                 window.location.href="../../screen/todoProductos.html"
                 }
               }); 
            
