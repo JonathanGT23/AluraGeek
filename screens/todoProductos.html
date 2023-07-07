@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../assets/css/reset.css">
     <link rel="stylesheet" href="../assets/css/body.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <link rel="shortcut icon" href="../assets/img/logoIcono.svg">
     <link rel="stylesheet" href="../assets/css/cabecera/cabecera.css">
     <link rel="stylesheet" href="../assets/css/cabecera/cabecera-logo.css">
     <link rel="stylesheet" href="../assets/css/cabecera/cabecera-buscador.css">
@@ -63,12 +63,12 @@
          </div>
  
          <div class="rodapie__info">
-             <a href="#">Quienes somos</a>
-             <a href="#">Política de privacidad</a>
-             <a href="#">Programa de fidelidad</a>
-             <a href="#">Nuestras Tiendas</a>
-             <a href="#">Quiero ser franquiciado</a>
-             <a href="#">Anúncie aquí</a>
+             <a href="/screens/error.html">Quienes somos</a>
+             <a href="/screens/error.html">Política de privacidad</a>
+             <a href="/screens/error.html">Programa de fidelidad</a>
+             <a href="/screens/error.html">Nuestras Tiendas</a>
+             <a href="/screens/error.html">Quiero ser franquiciado</a>
+             <a href="/screens/error.html">Anúncie aquí</a>
          </div>
      </div> 
          <form class="rodapie__form-contacto" id="form">
@@ -77,11 +77,11 @@
  
                  <h3>Hable con nosotros</h3>
                  <div class="grupo">
-                     <input required type="text" name="" id="name" class="input" ><span class="barra"></span>
+                     <input required type="text" name="" id="name" class="input" maxlength="40"><span class="barra"></span>
                      <label for="">Nombre</label>
                  </div>
                  <div class="grupo">
-                     <textarea required   name="" id="mensaje" cols="0" rows="0"  class="input"></textarea><span class="barra"></span>
+                     <textarea required   name="" id="mensaje" cols="0" rows="0"  class="input" maxlength="120"></textarea><span class="barra"></span>
                      <label for="">Mensaje</label>
                  </div>
                  <button type="submit" class="rodapie__boton boton">Enviar mensaje</button>
@@ -100,5 +100,8 @@
      </footer>
 
      <script type="module" src="../controllers/producto-controller.js"></script>
+     
+     <script src="../assets/js/buscar-controller.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>

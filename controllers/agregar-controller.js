@@ -11,8 +11,35 @@ formulario.addEventListener("submit", (evento) =>{
     const categoria = document.querySelector("[data-categoria]").value
     const descripcion = document.querySelector("[data-detalle]").value
   
-    productoService.agregarProducto(imagen,nombre,precio,categoria,descripcion).then (() =>{
-        window.location.href= "todoProductos.html"
-    }).catch(err => console.log(err))
+    Swal.fire({
+        title: 'Estas Seguro?',
+        text: "Deseas Agregar este Producto",
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#2A7AE4',
+        cancelButtonText: 'Cancelar',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Si, Agregalo!'
+      }).then((result) => {
+        if (result.isConfirmed) {
+          Swal.fire(
+            'Agregado!',
+            'Tu Producto a sido Agregado.',
+            'success'
+          )
+          productoService.agregarProducto(imagen,nombre,precio,categoria,descripcion).then (() =>{
+            window.location.href= "../screens/todoProductos.html"
+        }).catch(err => console.log(err))
+
+         
+        }
+      })
+
+
+
+
+
+
+   
 
 })

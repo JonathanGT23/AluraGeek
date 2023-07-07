@@ -8,7 +8,7 @@ const obtenerDatos = async () =>{
     const id = url.searchParams.get("id")
 
     if (id == null){
-        alert("Error")
+        window.location.href ="../screens/error.html"
     }
 
     const imagen = document.querySelector("[data-url]");
@@ -29,7 +29,7 @@ const obtenerDatos = async () =>{
             throw new Error()
         }
     }catch (error){
-        alert("Error")
+        window.location.href ="../screens/error.html"
     }
 
 }
@@ -37,6 +37,7 @@ const obtenerDatos = async () =>{
 obtenerDatos();
 
 formulario.addEventListener("submit", (evento) =>{
+
     evento.preventDefault()
     const url = new URL(window.location)
     const id = url.searchParams.get("id")
@@ -47,8 +48,34 @@ formulario.addEventListener("submit", (evento) =>{
     const categoria = document.querySelector("[data-categoria]").value;
     const descripcion = document.querySelector("[data-detalle]").value;
 
-    productoService.editarProducto(imagen,nombre,precio,categoria,descripcion,id).then(() => {
-        window.location.href="todoProductos.html"
+
+        Swal.fire({
+            title: 'Estas Seguro?',
+            text: "Deseas Editar este Producto",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#2A7AE4',
+            cancelButtonText: 'Cancelar',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Si, Editarlo!'
+          }).then((result) => {
+            if (result.isConfirmed) {
+              Swal.fire(
+                'Editado!',
+                'Tu Producto a sido Editado.',
+                'success'
+              )
+             productoService.editarProducto(imagen,nombre,precio,categoria,descripcion,id).then(() => {
+              window.location.href="../screens/todoProductos.html"
+            })
+
+             
+            }
+          })
+        
+         
+        
+        
+        
     })
 
-})

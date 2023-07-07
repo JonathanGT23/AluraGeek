@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="../assets/css/cabecera/cabecera-buscador.css">
     <link rel="stylesheet" href="../assets/css/cabecera/cabecera-boton-login.css">
 
-
+    <link rel="shortcut icon" href="../assets/img/logoIcono.svg">
 
     <link rel="stylesheet" href="../assets/css/login-html/login.css">
     <link rel="stylesheet" href="../assets/css/login-html/login-form.css">
@@ -33,28 +33,28 @@
             <a href="../index.html"><img src="../assets/img/Logo.svg" alt="Logo de AluraGeek" class="logo"></a>
         </div>
         <div class="cabecera__buscador">
-                <input type="search" class="cabecera__buscador-input" placeholder="¿Qué deseas buscar?">
-                <button class="cabecera__buscador-boton"><i class="fa fa-search cabecera__buscador-boton"></i></button>
+                <input type="search" class="cabecera__buscador-input" placeholder="¿Qué deseas buscar?" >
+                <button class="cabecera__buscador-boton"><i class="fa fa-search cabecera__buscador-boton" ></i></button>
         </div>
         
         
     </header>
 
 <section class="login">
-    <form class="login__form" id="form">
+    <form class="login__form" id="form1">
              
         <div class="form">
 
             <h3>Iniciar Sesión</h3>
             <div class="grupo">
-                <input required type="email" name="" id="name" class="input" ><span class="barra"></span>
+                <input required type="email" name="" id="email" class="input" data-correo><span class="barra"></span>
                 <label for="">Escriba su correo electrónico</label>
             </div>
             <div class="grupo">
-                <input type="password" name="" id="password" class="input" required><span class="barra"></span>
+                <input type="password" name="" id="password" class="input" required data-contra><span class="barra"></span>
                 <label for="">Escriba su contraseña</label>
             </div>
-            <a href="todoProductos.html"><button type="button" class="login__boton boton">Entrar</button></a>
+            <button type="submit" class="login__boton boton" >Entrar</button>
         </div>
 
     </form>
@@ -71,12 +71,12 @@
          </div>
  
          <div class="rodapie__info">
-             <a href="#">Quienes somos</a>
-             <a href="#">Política de privacidad</a>
-             <a href="#">Programa de fidelidad</a>
-             <a href="#">Nuestras Tiendas</a>
-             <a href="#">Quiero ser franquiciado</a>
-             <a href="#">Anúncie aquí</a>
+            <a href="/screens/error.html">Quienes somos</a>
+            <a href="/screens/error.html">Política de privacidad</a>
+            <a href="/screens/error.html">Programa de fidelidad</a>
+            <a href="/screens/error.html">Nuestras Tiendas</a>
+            <a href="/screens/error.html">Quiero ser franquiciado</a>
+            <a href="/screens/error.html">Anúncie aquí</a>
          </div>
      </div> 
          <form class="rodapie__form-contacto" id="form">
@@ -85,11 +85,11 @@
  
                  <h3>Hable con nosotros</h3>
                  <div class="grupo">
-                     <input required type="text" name="" id="name" class="input" ><span class="barra"></span>
+                     <input required type="text" name="" id="name" class="input" maxlength="40"><span class="barra"></span>
                      <label for="">Nombre</label>
                  </div>
                  <div class="grupo">
-                     <textarea required   name="" id="mensaje" cols="0" rows="0"  class="input"></textarea><span class="barra"></span>
+                     <textarea required   name="" id="mensaje" cols="0" rows="0"  class="input" maxlength="120"></textarea><span class="barra"></span>
                      <label for="">Mensaje</label>
                  </div>
                  <button type="submit" class="rodapie__boton boton">Enviar mensaje</button>
@@ -106,5 +106,8 @@
          <p class="footer__ahno">&#169 2023</p>
  
      </footer>
+     <script src="../assets/js/login.js"></script>
+     <script src="../assets/js/buscar-controller.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>

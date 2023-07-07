@@ -11,9 +11,14 @@
     display: flex;
     overflow: hidden;
     scroll-behavior: smooth;
-   width: 100%;
-    
+    width: 100%;
+    overflow-x: auto;
 }
+
+.container .slider::-webkit-scrollbar{
+    display: none;
+ }
+
 
 .control{
     font-size: 2rem;

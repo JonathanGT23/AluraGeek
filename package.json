@@ -7,7 +7,7 @@
     "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jonathan González T",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",

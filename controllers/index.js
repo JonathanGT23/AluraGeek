@@ -1,3 +1,5 @@
+
+
 import { productoService } from "../service/producto-service.js";
 
 const crearNuevaLinea = (imagen,nombre,precio,id) =>{
@@ -8,7 +10,7 @@ const crearNuevaLinea = (imagen,nombre,precio,id) =>{
             
             <p>${nombre}</p>
             <span>$${precio}</span>
-            <a href="#">Ver producto</a>
+            <a href="../screens/detalleProducto.html?id=${id}">Ver producto</a>
             
     </li>
     ` 
@@ -79,3 +81,4 @@ prev2.addEventListener("click", () =>{
 next2.addEventListener("click", () =>{
     slider2.scrollLeft +=200
 })
+

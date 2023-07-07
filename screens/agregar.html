@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="../assets/css/cabecera/cabecera-buscador.css">
     <link rel="stylesheet" href="../assets/css/cabecera/cabecera-boton-login.css">
 
-
+    <link rel="shortcut icon" href="../assets/img/logoIcono.svg">
 
     <link rel="stylesheet" href="../assets/css/agregar-html/agregar.css">
     <link rel="stylesheet" href="../assets/css/agregar-html/agregar-form.css">
@@ -60,12 +60,9 @@
                 </select>
                 <label for="">Categoría</label>
 
-                <!-- <input type="text" name="" id="categoria" class="input" required data-categoria><span class="barra"></span>
-                <label for="">Categoría</label> -->
-
             </div>
             <div class="grupo">
-                <input type="text" name="" id="nombreProducto" class="input" required data-nombre><span class="barra"></span>
+                <input type="text" name="" id="nombreProducto" class="input" required data-nombre maxlength="20"><span class="barra"></span>
                 <label for="">Nombre del producto</label>
             </div>
             <div class="grupo">
@@ -73,7 +70,7 @@
                 <label for="">Precio del produtco</label>
             </div>
             <div class="grupo">
-                <textarea required   name="" id="mensaje" cols="0" rows="0"  class="input" data-detalle></textarea><span class="barra"></span>
+                <textarea required   name="" id="mensaje" cols="0" rows="0"  class="input" data-detalle maxlength="150"></textarea><span class="barra"></span>
                 <label for="">Descripción del producto</label>
             </div>
             <button type="submit" class="agregar__boton boton">Agregar producto</button>
@@ -93,12 +90,12 @@
          </div>
  
          <div class="rodapie__info">
-             <a href="#">Quienes somos</a>
-             <a href="#">Política de privacidad</a>
-             <a href="#">Programa de fidelidad</a>
-             <a href="#">Nuestras Tiendas</a>
-             <a href="#">Quiero ser franquiciado</a>
-             <a href="#">Anúncie aquí</a>
+            <a href="/screens/error.html">Quienes somos</a>
+            <a href="/screens/error.html">Política de privacidad</a>
+            <a href="/screens/error.html">Programa de fidelidad</a>
+            <a href="/screens/error.html">Nuestras Tiendas</a>
+            <a href="/screens/error.html">Quiero ser franquiciado</a>
+            <a href="/screens/error.html">Anúncie aquí</a>
          </div>
      </div> 
          <form class="rodapie__form-contacto" id="form" >
@@ -107,11 +104,11 @@
  
                  <h3>Hable con nosotros</h3>
                  <div class="grupo">
-                     <input required type="text" name="" id="name" class="input" ><span class="barra"></span>
+                     <input required type="text" name="" id="name" class="input" maxlength="40"><span class="barra"></span>
                      <label for="">Nombre</label>
                  </div>
                  <div class="grupo">
-                     <textarea required   name="" id="mensaje" cols="0" rows="0"  class="input"></textarea><span class="barra"></span>
+                     <textarea required   name="" id="mensaje" cols="0" rows="0"  class="input" maxlength="120"></textarea><span class="barra"></span>
                      <label for="">Mensaje</label>
                  </div>
                  <button type="submit" class="rodapie__boton boton">Enviar mensaje</button>
@@ -130,5 +127,7 @@
      </footer>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
      <script type="module" src="../controllers/agregar-controller.js"></script>
+     <script src="../assets/js/buscar-controller.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>

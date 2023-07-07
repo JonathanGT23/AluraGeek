@@ -1,0 +1,10 @@
+.error{
+    padding: 3rem 1rem;
+    background-color: var(--background-secundario);
+ }
+ @media screen and (min-width: 1024px) {
+ 
+    .error{
+         padding: 0rem 5rem;
+     }
+}

@@ -1,0 +1,52 @@
+.error__container{
+    display: flex;
+    align-items: center;
+}
+
+.error__imagen{
+    width: 600px;
+}
+
+.error__texto {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.error__texto h1{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.error__texto p{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.error__texto button{
+    
+    width: 150px;
+    height: 50px;
+    font-size: 1rem;
+    background-color: var(--background-azul);
+    color: #fff;
+    border: none;
+}
+.error__texto button:hover{
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 500px) {
+ 
+    .error__container{
+        display: flex;
+        flex-direction: column;
+        
+       
+    }
+    .error__imagen{
+        width: 100%;
+    }
+    .error__texto{
+        align-items: center;
+    }
+}
